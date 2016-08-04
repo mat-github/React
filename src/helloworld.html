@@ -1,0 +1,38 @@
+<!DOCTYPE />
+<html>
+  <head>
+    <meta charset="UTF-8" />
+    <title>Hello React!</title>
+    <script src="js/react.js"></script>
+    <script src="js/react-dom.js"></script>
+    <script src="js/browser.min.js"></script>
+    <script>
+    /*
+    Hello, world!
+    react 15.x
+
+    无论是在当前页面写jsx 还是通过分离文件的形式去写jsx
+    type="text/babel" 才能通过browser.min.js去转换es来识别
+
+    已分离文件的形式去写jsx的时候
+    某些浏览器（如，Chrome浏览器）将无法加载 type="text/babel"该类型文件，除非它通过HTTP服务。
+
+
+    推荐react-tools的离线转换 或 webpack 来使用
+    */
+    </script>
+  </head>
+
+  <body>
+    <div id="app"></div>
+
+    <script type="text/babel">
+      ReactDOM.render(
+        <h1>Hello, world!</h1>,
+        document.getElementById('app')
+      );
+    </script>
+
+  </body>
+
+</html>
