@@ -28,5 +28,8 @@ js目录：需要的js框架或依赖
 components目录：组件模块
 
   /dev 开发模块，jsx目录
-  
+
   / 打包目录 ，同过'jsx dev/ /' 将dev目录中的js转换到components目录
+
+版本6：离线版 React
+版本7:React 构造函数
