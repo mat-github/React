@@ -43,6 +43,6 @@ components目录：组件模块
 
 DEV/ ：为开发目录
 
-components/ ：模块目录 通过react-tools的jsx命令会自动打包到改目录
+components/ ：模块目录 通过react-tools的jsx命令'jsx dev/ components/'会自动打包到改目录
 
 js/ ：react、react-dom 等框架目录
