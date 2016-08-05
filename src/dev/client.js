@@ -1,4 +1,4 @@
 ReactDOM.render(
-  React.createElement(Layout, null),
+  <Layout />,
   document.getElementById('app')
 );
