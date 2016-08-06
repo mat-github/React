@@ -46,3 +46,5 @@ DEV/ ：为开发目录
 components/ ：模块目录 通过react-tools的jsx命令'jsx dev/ components/'会自动打包到改目录
 
 js/ ：react、react-dom 等框架目录
+
+版本11：React事件处理和父子组件传值 Javascript Events & Data Changes in React

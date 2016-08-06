@@ -4,18 +4,15 @@ class Layout extends React.Component{
     this.state={title:"WelCome",time:0};//默认标题
   }
 
+  changeTitle(title){
+    this.setState({title});
+  }
+
   render(){
-    // setTimeout(()=>{
-    //   this.setState({time:this.state.time+1});
-    // },1000)
-    setTimeout(()=>{
-      this.setState({title:"WelCome will"});
-    },2000);
     return(
       <div>
         {this.state.time}
-        <Header name={"some thing"} title={this.state.title}/>
-        <Header title={"other title"}/>
+        <Header changeTitle={this.changeTitle.bind(this)} name={"some thing"} title={this.state.title}/>
         <Footer />
       </div>
     )
